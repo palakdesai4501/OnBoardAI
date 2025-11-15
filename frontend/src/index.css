@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Workday Color Theme - CSS Custom Properties */
+/* Based on Workday's official design system from workday.com */
+:root {
+  /* Primary Brand Colors */
+  --workday-navy: #3069B5;        /* Primary navigation and headers */
+  --workday-navy-dark: #255299;    /* Hover states */
+  --workday-navy-light: #4A7BC4;   /* Light accents */
+  
+  /* Neutral Colors */
+  --workday-white: #FFFFFF;        /* Cards and backgrounds */
+  --workday-gray: #F5F7FA;         /* Borders and subtle divisions */
+  --workday-gray-dark: #E8EBF0;   /* Hover states for gray elements */
+  --workday-gray-text: #4A5568;   /* Secondary text */
+  --workday-gray-text-dark: #1A1A1A; /* Primary text */
+  
+  /* Accent Colors */
+  --workday-orange: #F49813;      /* Buttons and key highlights */
+  --workday-orange-dark: #E0870F;  /* Button hover states */
+  --workday-orange-light: #F6A83A; /* Light accents */
+}

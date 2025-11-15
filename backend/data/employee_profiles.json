@@ -1,0 +1,29 @@
+[
+    {
+      "name": "Sarah Chen",
+      "role": "Senior Software Engineer",
+      "department": "Engineering",
+      "location": "California",
+      "work_arrangement": "remote",
+      "employment_type": "full_time",
+      "start_date": "2025-12-01"
+    },
+    {
+      "name": "Marcus Johnson",
+      "role": "Sales Development Representative",
+      "department": "Sales",
+      "location": "Texas",
+      "work_arrangement": "hybrid",
+      "employment_type": "full_time",
+      "start_date": "2025-12-15"
+    },
+    {
+      "name": "Priya Patel",
+      "role": "HR Coordinator",
+      "department": "HR",
+      "location": "New York",
+      "work_arrangement": "in_office",
+      "employment_type": "full_time",
+      "start_date": "2026-01-05"
+    }
+  ]
