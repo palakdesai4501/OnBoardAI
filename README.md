@@ -4,8 +4,6 @@
 
 A multi-agent AI system built with CrewAI that automates employee onboarding by intelligently searching Workday policy documents and generating personalized, compliant onboarding packages.
 
-**Built specifically for Workday's AI Software Engineer role**
-
 ---
 
 ## What It Does
