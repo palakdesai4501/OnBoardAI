@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/564be90e-ad95-4422-9a12-13a36e9ff091
 
 **Autonomous Employee Onboarding Intelligence**
 
-A multi-agent AI system built with CrewAI that automates employee onboarding by intelligently searching Workday policy documents and generating personalized, compliant onboarding packages.
+A multi-agent AI system built with CrewAI that automates employee onboarding by intelligently searching company policy documents and generating personalized, compliant onboarding packages.
 
 ---
 
@@ -14,7 +14,7 @@ A multi-agent AI system built with CrewAI that automates employee onboarding by 
 
 OnBoard AI uses **2 specialized AI agents** to automate the entire employee onboarding process:
 
-1. **Policy Researcher Agent** - Searches Workday's official policy documents using semantic search to find all relevant policies for the new employee based on their role, department, location, and employment type.
+1. **Policy Researcher Agent** - Searches company's official policy documents using semantic search to find all relevant policies for the new employee based on their role, department, location, and employment type.
 
 2. **Onboarding Writer Agent** - Creates personalized welcome emails, checklists (Day 1, Week 1, 30-day), and policy summaries in friendly, actionable language.
 
@@ -25,7 +25,7 @@ OnBoard AI uses **2 specialized AI agents** to automate the entire employee onbo
 ## Architecture
 
 ```
-Workday PDF Documents (Code of Conduct, etc.)
+Company PDF Documents (Code of Conduct, etc.)
             ↓
     PDF Processing & Chunking
             ↓
@@ -84,7 +84,7 @@ cp .env.example .env
 ### Setup Knowledge Base
 
 ```bash
-# 1. Add Workday PDF documents to backend/data/pdfs/
+# 1. Add Company PDF documents to backend/data/pdfs/
 #    (Already included: code-of-conduct.pdf)
 
 # 2. Process PDFs and create vector database
@@ -147,7 +147,7 @@ onboardAI/
 │   │   ├── exceptions.py          # Custom exceptions
 │   │   └── file_cleanup.py        # File management
 │   ├── data/
-│   │   ├── pdfs/                  # Workday policy PDFs
+│   │   ├── pdfs/                  # Company policy PDFs
 │   │   ├── chroma_db/             # Vector database (auto-created)
 │   │   └── employee_profiles.json # Test employee data
 │   ├── outputs/                   # Generated packages
@@ -179,7 +179,7 @@ onboardAI/
 
 ## Key Features
 
-- **Real Workday Content** - Uses actual Workday Code of Conduct PDF  
+- **Real Company Content** - Uses actual Company Code of Conduct PDF  
 - **Semantic Search** - Finds relevant policies using embeddings  
 - **Multi-Agent Architecture** - Specialized agents collaborate autonomously  
 - **REST API** - FastAPI backend with health checks and metrics  
