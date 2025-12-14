@@ -26,7 +26,7 @@ const INITIAL_STEPS = [
   {
     id: 1,
     name: 'Policy Researcher',
-    description: 'Researching relevant Workday policies...',
+    description: 'Researching relevant company policies...',
     status: 'pending' as StepStatus
   },
   {
